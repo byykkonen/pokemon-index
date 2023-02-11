@@ -1,0 +1,58 @@
+
+[{
+        "name": "Normal",
+        "weakness": ["fighting"]
+        },{
+         "name":"Fire",
+         "weakness":["ground", "rock", "water"]
+        },{
+         "name":"Water", 
+         "weakness":["grass", "electric"]
+        },{
+         "name": "Grass",
+         "weakness":["flying", "poison", "bug", "steel", "fire", "grass", "dragon"]
+        },{
+         "name":"Flying",
+         "weakness":["rock",   "electric",   "ice"]
+        },{
+         "name":"Fighting",
+         "weakness": ["flying", "psychic", "fairy"]
+        },{
+         "name":"Poison",
+         "weakness": ["ground", "psychic"]
+        },{
+         "name":"Electric",
+         "weakness":["ground"]
+        },{
+         "name":"Ground",
+         "weakness":["water", "grass", "ice"]
+        },{
+         "name":"Rock",
+         "weakness":["fighting", "ground", "steel", "water", "grass"]
+        },{
+         "name":"Psychic",
+         "weakness":["bug", "ghost", "dark"]
+        },{
+         "name":"Ice",
+         "weakness":["fighting", "rock", "steel", "fire"]
+        },{
+         "name":"Bug",
+         "weakness":["flying", "rock", "fire"]
+        },{
+         "name":"Ghost",
+         "weakness":["ghost", "dark"]
+        },{
+         "name":"Steel",
+         "weakness":["fighting", "ground", "fire"]
+        },{
+         "name":"Dragon",
+         "weakness":["ice", "dragon", "fairy"]
+        },{
+         "name":"Dark",
+         "weakness":["fighting", "bug", "fairy"]
+        },{
+         "name": "Fairy",
+         "weakness":["poison", "steel"]
+        }
+     ]
+   

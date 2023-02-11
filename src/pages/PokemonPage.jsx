@@ -52,7 +52,7 @@ const PokemonPage = ({ match }) => {
                     <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                         <Card className='p-3 rounded text-center shadow p-3 mb-5 bg-white' style={{ border: 'none' }}>
                             <Card.Body>
-                                <Card.Text>
+                                <Card.Text as='div'>
                                     <Row>
                                         {pokemonDetails.types.map(t => (
                                             <Col key={t.type.name}>

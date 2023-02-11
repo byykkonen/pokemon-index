@@ -1,25 +1,19 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Container } from 'react-bootstrap';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // Pages
-import Homepage from './pages/Homepage';
-import PokemonPage from './pages/PokemonPage';
-
-
+import Homepage from "./pages/Homepage";
+import PokemonPage from "./pages/PokemonPage";
 
 const App = () => {
   return (
     <Router>
-      
-      <Container>
-        <Routes>
-          <Route exact path='/' element={<Homepage />} />
-          <Route path='/pokemon/:id' element={<PokemonPage />}/>
-        </Routes>
-      </Container>
+      <Routes>
+        <Route exact path="/" element={<Homepage />} />
+        <Route path="/pokemon/:id" element={<PokemonPage />} />
+      </Routes>
     </Router>
   );
-}
+};
 
 export default App;
